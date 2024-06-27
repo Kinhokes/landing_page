@@ -1,0 +1,115 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #d6d6d6;
+  color: #000000;
+}
+
+.list {
+  list-style: none;
+  justify-content: row;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.fix {
+  text-align: center;
+}
+
+.container2 {
+  text-align: center;
+}
+
+/* Hero */
+#hero {
+  background-image: url('output.jpg');
+  background-size: cover;
+  color: black;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* About section styles */
+#about {
+  padding: 80px 0;
+  text-align: center;
+}
+
+#about h2 {
+  margin-bottom: 30px;
+}
+
+/* Styles for mobile responsiveness */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  .h1 {
+    width: 300px;
+  }
+  .font {
+    text-align: center;
+    border-bottom: dotted;
+  }
+  .do {
+    text-align: center;
+    border-bottom: dotted;
+  }
+  footer {
+    text-align: center;
+  }
+  .fix {
+    font-size: 16px;
+  }
+  #hero {
+    background-size: contain;
+    color: black;
+    text-align: center;
+    padding: 100px 0;
+  }
+
+  .hero-content {
+    width: auto;
+    margin: 0 auto;
+  }
+}
+/* footer */
+footer {
+  background-color: gray;
+  text-align: center;
+  padding: 5px;
+}
+
+.he {
+  transition: transform 2s; /* Smooth transition for the transform */
+}
+
+.he:hover {
+  transform: rotateY(360deg); /* Rotate 360 degrees on the Y axis */
+}
+
+.zo {
+  transition: transform 2s; /* Smooth transition for the transform */
+}
+
+.zo:hover {
+  transform: rotateY(360deg); /* Rotate 360 degrees on the Y axis */
+}
+
+.zoo {
+  transition: transform 2s; /* Smooth transition for the transform */
+}
+
+.zoo:hover {
+  transform: rotateY(360deg); /* Rotate 360 degrees on the Y axis */
+}

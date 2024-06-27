@@ -1,0 +1,72 @@
+html,
+body {
+  height: 100%;
+  background-color: pink;
+}
+.bruh1 {
+  background-image: url('img1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 740px;
+  margin-bottom: 0%;
+}
+
+.easy {
+  margin-bottom: 20px;
+}
+
+.bruh2 {
+  float: left;
+  margin-right: 20px;
+}
+
+.para {
+  font-size: x-large;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.bruh {
+  text-align: center;
+  font-size: 8em;
+  color: white;
+}
+
+.bruh2 {
+  width: 28%;
+  height: auto;
+}
+
+.req {
+  font-size: x-large;
+}
+
+@media screen and (max-width: 600px) {
+  .bruh1 {
+    background-size: contain;
+    height: 300px;
+  }
+  .bruh {
+    font-size: 2em;
+  }
+}
+
+/* Styles for mobile responsiveness */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  .bruh2 {
+    width: 60%;
+  }
+  .para {
+    font-size: large;
+  }
+  .req {
+    font-size: medium;
+  }
+}

@@ -1,0 +1,45 @@
+/* Center the Introduction Section */
+.introduction-section {
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Main Content Styles */
+main .container {
+  margin-top: 20px;
+  background-color: #F8F9FA;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #F8F9FA;
+  margin-top: 20px;
+}
+
+/* Body Background Color */
+body {
+  background-color: #E9ECEF;
+  color: #212529;
+}
+
+/* Center the Introduction Section */
+.introduction-section {
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Main Content Styles */
+main .container {
+  margin-top: 20px;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #f8f9fa;
+}
